@@ -1,0 +1,23 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+	position: relative;
+}
+
+.centering {
+	position: absolute;
+	top: 30%;
+	left: 50%; 
+	transform: translate(-50%, -50%);
+}
+
+button {
+	width: 100%;
+}
+
+#one {
+	padding: 50px;
+	box-shadow: 2px 4px #f2f2f2;
+}

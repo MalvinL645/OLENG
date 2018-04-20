@@ -1,0 +1,106 @@
+.nav-link{
+	color: black;
+	font-family: Arial;
+}
+.nav-link:hover{
+	color: #a0a0a0;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+td a{
+	text-decoration: none;
+	color: black;
+}
+
+body{
+	overflow-x:hidden;
+}
+
+td a:hover{
+	text-decoration: none;
+	color: #a0a0a0;
+}
+table{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#slide{
+	position: absolute;
+    z-index: 900;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+}
+.profile{
+	min-height: 20px;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 2px;
+}
+#image {
+    width: 100%;
+    height: 100%;
+}
+.center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.imgprofile {
+    border-radius: 3px;
+    max-width: 100%;
+    height: auto;
+}
+.isi{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+}
+.isi2{
+	width: 68%;
+}
+#batal{
+	padding: 10px;
+	color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#edit-btn{
+	margin-right: 12px;
+	margin-left: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.btn-simpanbatal{ 
+	margin-right: 12px;
+	margin-left: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+#unggah{
+	padding-top: 10px;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
